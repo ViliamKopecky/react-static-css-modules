@@ -5,6 +5,7 @@ import { hot } from 'react-hot-loader'
 import Routes from 'react-static-routes'
 
 import './app.css'
+import styles from './test-modules.cssm'
 
 const App = () => (
   <Router>
@@ -17,6 +18,9 @@ const App = () => (
       <div className="content">
         <Routes />
       </div>
+    <div className={styles.moduleClass}>
+      Try changing background in src/test-modules.cssm. App.js - this one seems ok.
+    </div>
     </div>
   </Router>
 )

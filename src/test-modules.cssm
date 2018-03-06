@@ -1,0 +1,5 @@
+.moduleClass {
+    padding: 20px;
+    font-weight: bold;
+    background: blue;
+}
